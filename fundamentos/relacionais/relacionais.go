@@ -21,6 +21,7 @@ func main() {
 	fmt.Println("Data 2:", d2)
 
 	fmt.Println("Datas", d1 == d2)
+	fmt.Println("Datas", d1.Equal(d2))
 
 	type Pessoa struct {
 		Nome string
